@@ -1,29 +1,24 @@
-﻿# Freelec Springboot2 Webservice
+﻿# Freelec Springboot2 Webservice — Service Baseline
 
-## Objective
-Spring Boot 2.1.7 starter repository prepared for backend webservice development practice.
+## What this repo means to me
+A practical sample repository built with Spring Boot 2.1.7, suitable for demonstrating a lean webservice baseline and disciplined dependency layout.
 
-## Stack
-- Java 8
-- Spring Boot 2.1.7
-- Gradle
-- Spring Web / Spring Test
+## Recruiter-focused notes
+- **Case**: Backend project initialized for extendable service work
+- **Focus**: practical and stable build setup for service modules
+- **Why useful**: shows how I keep service foundation readable and maintainable
 
-## What this repo shows
-- Project baseline for server-side service development
-- Simple, reproducible build setup using Gradle wrapper
-- Clear baseline dependencies for web API development
-
-## Why this matters to hiring teams
-- Shows backend environment literacy for Java service setup and testing.
-- Useful reference when evaluating how I approach stable, maintainable project foundation work.
+## Quick proof points
+- Spring Boot plugin wiring in `build.gradle`
+- Explicit web and test dependencies
+- Gradle wrapper setup for reproducible execution
 
 ## Run
-`ash
+```bash
 git clone https://github.com/amaranth92/freelec-springboot2-webservice.git
 cd freelec-springboot2-webservice
 ./gradlew test
-`
+```
 
-## Note
-This project is written to be a clear starting point for practical Java/Spring service work.
+## Skills shown
+Java, Spring Boot 2.1, Gradle, service baseline quality
